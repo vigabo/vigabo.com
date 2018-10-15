@@ -4,7 +4,7 @@ draft = false
 title = "Contact"
 description  = "We live for communication"
 type = "simple"
-image = "img/contact.jpg"
+image = "img/pawel-czerwinski-784154-unsplash.jpg"
 
 
 +++
