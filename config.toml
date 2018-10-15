@@ -1,4 +1,5 @@
-baseurl = "http://www.vigabo.com"
+baseurl = ""
+relativeurls = true
 title = "Vigabo AB"
 canonifyurls = true
 paginate = 10
