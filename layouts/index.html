@@ -1,12 +1,12 @@
 {{ partial "header.html" .}}
 
 <!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ .Site.BaseURL }}/img/raphael-andres-430356-unsplash.jpg')">
+<header class="intro-header" style="background-image: url('/img/raphael-andres-430356-unsplash.jpg')">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="site-heading">
-          <h1><img src="{{ .Site.BaseURL }}/img/vigabo-logo.png" width="458" height="171" alt="vigabo"></h1>
+          <h1><img src="/img/vigabo-logo.png" width="458" height="171" alt="vigabo"></h1>
           <hr class="small">
           {{ if isset .Site.Params "Description" }}<span class="subheading">{{ title .Site.Params.Description }}</span>
           {{ end }}
@@ -26,7 +26,7 @@
       <!-- Pager -->
       <ul class="pager">
         <li class="next">
-          <a href="{{ .Site.BaseURL }}/post/">Older Posts &rarr;</a>
+          <a href="/post/">Older Posts &rarr;</a>
         </li>
       </ul>
     </div>
